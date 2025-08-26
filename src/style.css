@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Inter;
+    src: url("/fonts/Inter-VariableFont_slnt\,wght.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400 700;
+}
+
+@import "tailwindcss";
+
+@theme{
+    --font-inter: "Inter", sans-serif;
+}
+
+@utility custom-a-element{
+    @apply text-sm bg-gray-700 m-2 py-2 w-60 text-center rounded-2xl hover:bg-[hsl(75,94%,57%)] hover:text-black transition duration-300 ease-in-out sm:w-84;
+}
